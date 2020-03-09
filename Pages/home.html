@@ -1,0 +1,152 @@
+<html>
+    <head>
+        <title>473-x — Home</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" type="text/css" href="home.css">
+        <script src="index.js"></script>
+        <link rel="icon" type="image/png" href="./res/logo.png"/>
+    </head>
+
+    <body>
+        <div class="topbar">
+            <div class="img">
+                <input type="image" class="imgSideMenu" alt="button" onclick="showSideMenu()" src="./res/logo.png">
+            </div>
+            <div class="content">
+                <a class="active" href="./home.html">Home</a>
+                <a href="./articles.html">Conteúdo</a>
+                <a href="./about.html">Sobre nós</a>
+                <a href="./contact.html">Contatos</a>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="sidemenu" id="sidemenu">
+                <a href="#" id="formIdeia">Envie-nos uma ideia</a><hr>
+                <a onclick="abrirCanaisParceiros();">Canais parceiros:</a>
+                <div class="canaisParceiros" id="CanaisParceiros">
+                    <a target="_blank" href="https://www.youtube.com/channel/UCsm0FF723iy3oy9ECdRU7AA">Arthur</a>
+                </div>
+            </div>
+
+            <div class="content">
+                <div id="logo">
+                    <center><img src="res/logo.png" height="350px" width="350px"></center>
+                </div>
+
+                <div id="realcontent">
+                    <div class="links">
+                        <div class="twitch">
+                            <a target="_blank" href="https://www.twitch.tv/473xstrean">
+                                <img src="./res/twitch.png">
+                                <div>Twitch</div></a>
+                        </div>
+                        <div class="youtube">
+                            <a target="_blank" href="https://www.youtube.com/channel/UCszoxM4Ym5E5IJKAyfgUdzg">
+                                <img src="./res/YouTube_logo_(2013-2015).png">
+                                <div>YouTube</div></a>
+                        </div>
+                        <div class="instagram">
+                            <a target="_blank" href="https://www.instagram.com/473x.yt/">
+                                <img src="./res/logoinsta.png">
+                                <div>Instagram</div></a>
+                        </div>
+                        <div class="facebook">
+                            <a target="_blank" href="https://www.facebook.com/473x.yt/">
+                                <img src="./res/logoface.png">
+                                <div>Facebook</div></a>
+                        </div>
+                    </div>
+
+                    <div class="cronograma">
+                        <center><H1>Cronograma</H1></center>
+                        <table class="TBCronograma" border=2>
+                            <tr>
+                                <th>Domingo</th>
+                                <th>Segunda</th>
+                                <th>Terça</th>
+                                <th>Quarta</th>
+                                <th>Quinta</th>
+                                <th>Sexta</th>
+                                <th>Sábado</th>
+                            </tr>
+
+                            <tr>
+                                <td>--</td>
+
+                                <td>
+                                    <div class="cellcontentTwitch">
+                                        <img class="livetwitch" style="margin-top: 2px;">
+                                        <div class="celltext">(13:30)</div>
+                                        <div class="tooltip">
+                                            Lives na Twitch às segundas. Normalmente jogando CS, às vezes 
+                                            outros jogos e raramente não jogando
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td>--</td>
+
+                                <td>
+                                    <div class="cellcontentYTGameplay">
+                                        <img class="ytgameplay" style="margin-top: 2px;">
+                                        <div class="celltext">(18:30)</div>
+                                        <div class="tooltip">
+                                            Vídeos de gameplay no YouTube todas as quartas.
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td>
+                                    --
+                                </td>
+
+                                <td>--</td>
+
+                                <td>
+                                    <div class="cellcontentYTVlog">
+                                        <img class="ytvlog" style="margin-top: 2px;">
+                                        <div class="celltext">(18:30)</div>
+                                        <div class="tooltip">
+                                            Vídeos de vlog no Youtube todos os sábados.
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        *Mantenha o mouse sobre uma atividade para mais detalhes<br>
+                        **O conteúdo pode não atender à previsão do cronograma devido a imprevistos, no entanto, 
+                        tentaremos manter o conteúdo o mais alinhado possível com a programação.
+                    </div>
+
+                    <img id="HomePic" src="res/TrailerPicture.jpeg">
+                    
+                </div>
+
+                <div class="footer">
+                    <div class="sections">
+                        <a href="#" onclick="mostrarFeedback();">Envie-nos um Feedback</a>
+                        <a href="./contact.html">Fale Conosco</a>
+                    </div>
+                    <hr id="footerhr">
+                    <div class="copyright">
+                        Copyright © 2019 - 2020 473-x. Todos os Direitos Reservados
+                    </div><br>
+                    <div class="developer">
+                        Desenvolvido por: Emilio Sanches
+                    </div>
+                </div>
+
+                <div class="iframeContainer" id="iframeContainer">
+                    <div id="FeedbackForm">
+                        <div class="iframeTopBar">
+                            <div id="fecharFrame">&times;</div>
+                        </div>
+                        <iframe src="formFeedback.html"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>473-x — Artigos</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <script src="index.js"></script>
+        <link rel="icon" type="image/png" href="./res/logo.png"/>
+    </head>
+
+    <body>
+        <div class="topbar">
+            <div class="img">
+                <input type="image" class="imgSideMenu" alt="button" onclick="showSideMenu()" src="./res/logo.png">
+            </div>
+            <div class="content">
+                <a href="./home.html">Home</a>
+                <a class="active" href="./articles.html">Conteúdo</a>
+                <a href="./about.html">Sobre nós</a>
+                <a href="./contact.html">Contatos</a>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="sidemenu" id="sidemenu">
+                <a href="#" id="formIdeia">Envie-nos uma ideia</a><hr>
+                <a onclick="abrirCanaisParceiros();">Canais parceiros:</a>
+                <div class="canaisParceiros" id="CanaisParceiros">
+                    <a target="_blank" href="https://www.youtube.com/channel/UCsm0FF723iy3oy9ECdRU7AA">Arthur</a>
+                </div>
+            </div>
+
+            <div class="content" style="height: 100%;">
+                <center><img src="res/logo.png" style="width: 500px; height: 500px;"></center>
+                <center><h3>Em breve nosso conteúdo estará aqui</h3></center>
+                <div class="textembreve" style="text-align: center;">
+                    O site ainda está em desenvolvimento. Em breve um novo conteúdo será adicionado aqui.
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="sections">
+                    <a href="#" onclick="mostrarFeedback();">Envie-nos um Feedback</a>
+                    <a href="./contact.html">Fale Conosco</a>
+                </div>
+                <hr id="footerhr">
+                <div class="copyright">
+                    Copyright © 2019 - 2020 473-x. Todos os Direitos Reservados
+                </div><br>
+                <div class="developer">
+                    Desenvolvido por: Emilio Sanches
+                </div>
+            </div>
+
+            <div class="iframeContainer" id="iframeContainer">
+                <div id="FeedbackForm">
+                    <div class="iframeTopBar">
+                        <div id="fecharFrame">&times;</div>
+                    </div>
+                    <iframe src="formFeedback.html"></iframe>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>

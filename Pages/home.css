@@ -1,0 +1,186 @@
+#logo {
+    padding-top: 0;
+    background: linear-gradient(to bottom, #000000 20%, #808080 100%);
+    z-index: 1;
+    align-content: center;
+    position:fixed;
+    width: 100%;
+    transform: translateZ(-1px);
+}
+
+#realcontent {
+    margin-top: 372px;
+    background-color: gray;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    align-items: center;
+}
+
+#realcontent .links {
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    display: table;
+}
+
+#realcontent .links * {
+    display: inline;
+    position: relative;
+}
+
+#realcontent .links .facebook img {
+    height: 35px; width: 35px;
+    margin-left: 4px;
+}
+
+#realcontent .links .instagram img {
+    height: 37px; width: 37px;
+    bottom: 1px;
+}
+
+#realcontent .links .youtube img {
+    height: 45px; width: 45px;
+    bottom: 4px; left: 3px;
+}
+
+#realcontent .links .twitch img {
+    bottom: 2px;
+}
+
+#realcontent .links * img {
+    float: left;
+    height: 40px; width: 40px;
+}
+
+#realcontent .links * a {
+    padding: 0;
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right:5px;
+}
+
+#realcontent .links * a div {
+    top: 5px;
+}
+
+#realcontent .links .instagram a div {
+    left: 4px;
+}
+
+#realcontent .links .facebook a div {
+    left: 3px;
+}
+
+.links .youtube a {
+    right: 5px;
+}
+
+div.cronograma {
+    margin-top: 50px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 700px;
+}
+
+div.cronograma h1 {
+    margin-top: 2;
+}
+
+div.cronograma table.TBCronograma {
+    width: 700px; 
+}
+
+div.cronograma table.TBCronograma td img {
+    height: 30px; width: 30px;
+    float: left;
+}
+
+div.cronograma table.TBCronograma th {
+    width: 100px;
+    overflow: hidden;
+}
+
+div.cronograma table.TBCronograma td {
+    width: 100px;
+    margin: auto;
+    float: none;
+    text-align: center;
+    vertical-align: center;
+}
+
+div.cronograma table.TBCronograma td div.cellcontentTwitch div.celltext {
+    margin-top: 6px;
+    float: left;
+    font-weight: bold;
+}
+
+div.cronograma table.TBCronograma td div.cellcontentYTVlog div.celltext {
+    margin-top: 6px;
+    float: left;
+    font-weight: bold;
+}
+
+div.cronograma table.TBCronograma td div.cellcontentYTGameplay div.celltext {
+    margin-top: 6px;
+    float: left;
+    font-weight: bold;
+}
+
+.cellcontentYTGameplay .celltext:hover + .tooltip {
+    visibility: visible;
+    position: absolute;
+}
+
+.cellcontentYTVlog .celltext:hover + .tooltip {
+    visibility: visible;
+    position: absolute;
+}
+
+.cellcontentTwitch .celltext:hover + .tooltip {
+    visibility: visible;
+    position: absolute;
+    top: 27px;
+}
+
+img.livetwitch {
+    content: url("./res/twitch.png");
+}
+
+img.ytgameplay {
+    content: url("./res/YouTube_logo_\(2013-2015\).png");
+}
+
+img.ytvlog {
+    content: url("./res/YouTube_logo_\(2013-2015\).png");
+}
+
+.tooltip {
+    padding: 5px 0;
+    visibility: hidden;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    height: fit-content;
+    position: fixed;
+    text-align: center;
+    width: 200px;
+    top: 10%;
+    float: none;
+    margin: 0 auto;
+}
+
+#HomePic {
+    width: 500px; height: 375px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: block;
+    border: 1px solid black;
+    position: relative;
+}

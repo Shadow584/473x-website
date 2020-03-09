@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>473-x — Feedback</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="formFeedback.css">
+    </head>
+
+    <body>
+        <div class="form">
+            <form action="/app.js" method="POST">
+                <label for="name">Seu nome:</label><input type="text" id="name" class="formText"><br><br>
+                <label for="email">Seu e-mail:</label><input type="email" id="email" class="formText"><br><br>
+                Em geral, como você avalia nosso conteúdo?<br>
+                <label for="conteudoBom">Bom</label><input type="radio" id="conteudoBom" name="avaliacaoConteudo"><br>
+                <label for="conteudoRuim">Ruim</label><input type="radio" id="conteudoRuim" name="avaliacaoConteudo"><br>
+                <br>
+                <label for="mensagem" class="formText">Descreva seu feedback:</label><br>
+                <textarea style="width:100%"></textarea>
+                <br><br>
+                <input type="submit" value="Enviar"> <input type="reset" value="Limpar">
+            </form>
+        </div>
+    </body>
+</html>

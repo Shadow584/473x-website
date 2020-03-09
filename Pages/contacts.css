@@ -1,0 +1,45 @@
+.Descrição {
+    margin-left: 5px;
+}
+
+hr.hrMain {
+    border: 0;
+    border-top: 1px dotted darkgray;
+    background-color: darkgray;
+    color: darkgray;
+    margin-bottom: 50px;
+    margin-left: 10px; margin-right: 10px;
+    color: darkgray;
+    height: 1px;
+}
+
+.contato {
+    height: 175px;
+    float: top;
+}
+
+.contato div h3 {
+    margin: 0;
+    margin-right: 5px;
+    float: left;
+}
+
+.contato div div {
+    float: top;
+    font-size: 20;
+}
+
+.contato div {
+    width: auto;
+}
+
+.contato a {
+    color: black;
+    text-decoration: bold none;
+}
+
+.contato img {
+    height: 150px; width: 150px;
+    float: left;
+    margin-right: 20px
+}
